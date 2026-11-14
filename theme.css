@@ -1,0 +1,23 @@
+/* 白底黑字主題；飛機維持深空藍機身與黑色機翼。 */
+:root{--navy:#000;--ink:#000;--muted:#000;--cloud:#fff;--paper:#fff;--seat-0:#111;--seat-1:#555;--seat-2:#999;--seat-3:#ddd}
+body,body header,body footer,body .hero,body .card-art,body .detail-art{background:#fff;color:#000}
+body .brand small,body .brand-icon,body .header-note,body .text-button,
+body .eyebrow,body .hero .eyebrow,body h1 span,body .hero h1 span,
+body .hero-intro,body .hero-caption,body .hero-bottom,
+body .section-top p:not(.eyebrow),body .ai-label,body .card-bottom>span,
+body .fleet-note,body footer,body .breadcrumbs,body .detail-title>p,
+body .section-label>span,body .section-label a,body .section-label>p,
+body .seat-count>span,body .seat-legend,body .seat-legend strong,
+body .data-note,body .operator-number,body .operator-list p:not(.data-note),
+body .source-link,body .next-model>span{color:#000}
+body header{border-bottom:1px solid #ddd}
+body .brand-icon{border-color:#000}
+body .explore{background:#fff;color:#000;border:1px solid #000;box-shadow:0 6px 25px #0000000d}
+body .explore:hover{background:#f2f2f2}
+body button:focus-visible,body a:focus-visible{outline-color:#000}
+body .hero-caption i{background:#000}
+body .ghost-type,body .hero .ghost-type,body .card-ghost,body .detail-ghost{color:#00000008}
+body .orbit,body .hero .orbit{border-color:#0000000d}
+body .aircraft-card,body .data-section,body .operator-list>a,body .next-model,body footer{border-color:#ddd}
+body .section-label a{border-color:#999}
+body .plane-flight img{filter:drop-shadow(10px 30px 22px #00000018)}
